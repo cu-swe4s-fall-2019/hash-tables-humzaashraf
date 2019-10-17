@@ -1,4 +1,3 @@
-import sys
 
 def h_ascii(key, N):
     s = 0
@@ -11,4 +10,4 @@ def h_rolling(key, N):
     for i in range(len(key)):
         s += ord(key[i]) * p**i
     s = s % m
-    return s % N 
+    return s % N
